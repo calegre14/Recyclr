@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28166E1E2375F31B0076A288 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E1D2375F31B0076A288 /* TabBarViewController.swift */; };
+		28166E202375F3B70076A288 /* PostFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E1F2375F3B70076A288 /* PostFeedViewController.swift */; };
+		28166E222375F4040076A288 /* ProfileInspectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E212375F4040076A288 /* ProfileInspectTableViewController.swift */; };
+		28166E252375F4540076A288 /* UserProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E242375F4540076A288 /* UserProfileTableViewController.swift */; };
+		28166E2A2375F4960076A288 /* MessageListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E292375F4960076A288 /* MessageListTableViewController.swift */; };
+		28166E2C2375F4BB0076A288 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E2B2375F4BB0076A288 /* ConversationViewController.swift */; };
+		28166E302375F5100076A288 /* RecycleCenterLocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E2F2375F5100076A288 /* RecycleCenterLocationMapViewController.swift */; };
+		28166E332375F70B0076A288 /* mapTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28166E322375F70B0076A288 /* mapTab.storyboard */; };
+		28166E352375F7DF0076A288 /* profileTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28166E342375F7DF0076A288 /* profileTab.storyboard */; };
+		28166E372375F8050076A288 /* messageTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28166E362375F8050076A288 /* messageTab.storyboard */; };
+		28166E392375F9360076A288 /* addPost.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28166E382375F9360076A288 /* addPost.storyboard */; };
+		28166E3B2375FB5C0076A288 /* addPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28166E3A2375FB5C0076A288 /* addPostViewController.swift */; };
+		287CC60723733C5700904C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CC60623733C5700904C1F /* AppDelegate.swift */; };
+		287CC60923733C5700904C1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287CC60823733C5700904C1F /* SceneDelegate.swift */; };
+		287CC61023733C5900904C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287CC60F23733C5900904C1F /* Assets.xcassets */; };
+		287CC61323733C5900904C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287CC61123733C5900904C1F /* LaunchScreen.storyboard */; };
+		287CC62423733D2400904C1F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287CC62323733D2400904C1F /* CloudKit.framework */; };
+		287CC62723733E0900904C1F /* homeFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287CC62623733E0900904C1F /* homeFeed.storyboard */; };
+		28AE174423748ACF0064D10A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28AE174323748ACF0064D10A /* GoogleService-Info.plist */; };
+		28AE174723748B960064D10A /* ChatConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE174623748B960064D10A /* ChatConstants.swift */; };
+		28AE1749237498080064D10A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE1748237498080064D10A /* Post.swift */; };
+		28AE174B2374A2C90064D10A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AE174A2374A2C90064D10A /* User.swift */; };
+		28FD94792374BCF3005A4975 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD94782374BCF3005A4975 /* Comment.swift */; };
+		28FD947B2374CD96005A4975 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD947A2374CD96005A4975 /* PostController.swift */; };
+		28FD947D2374CDA4005A4975 /* UserControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD947C2374CDA4005A4975 /* UserControllers.swift */; };
+		28FD947F2374CDB2005A4975 /* CommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD947E2374CDB2005A4975 /* CommentController.swift */; };
+		7E5D52461BA2ABCDBB1F785D /* Pods_Recyclr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDDB386089724EE541BF7A2 /* Pods_Recyclr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C46688E25BF515CCDB69FD /* Pods-Recyclr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recyclr.release.xcconfig"; path = "Target Support Files/Pods-Recyclr/Pods-Recyclr.release.xcconfig"; sourceTree = "<group>"; };
+		28166E1D2375F31B0076A288 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		28166E1F2375F3B70076A288 /* PostFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedViewController.swift; sourceTree = "<group>"; };
+		28166E212375F4040076A288 /* ProfileInspectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInspectTableViewController.swift; sourceTree = "<group>"; };
+		28166E242375F4540076A288 /* UserProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewController.swift; sourceTree = "<group>"; };
+		28166E292375F4960076A288 /* MessageListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListTableViewController.swift; sourceTree = "<group>"; };
+		28166E2B2375F4BB0076A288 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		28166E2F2375F5100076A288 /* RecycleCenterLocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleCenterLocationMapViewController.swift; sourceTree = "<group>"; };
+		28166E322375F70B0076A288 /* mapTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mapTab.storyboard; sourceTree = "<group>"; };
+		28166E342375F7DF0076A288 /* profileTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = profileTab.storyboard; sourceTree = "<group>"; };
+		28166E362375F8050076A288 /* messageTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = messageTab.storyboard; sourceTree = "<group>"; };
+		28166E382375F9360076A288 /* addPost.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = addPost.storyboard; sourceTree = "<group>"; };
+		28166E3A2375FB5C0076A288 /* addPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPostViewController.swift; sourceTree = "<group>"; };
+		287CC60323733C5700904C1F /* Recyclr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recyclr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		287CC60623733C5700904C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		287CC60823733C5700904C1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		287CC60F23733C5900904C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287CC61223733C5900904C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		287CC61423733C5900904C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287CC62123733D1500904C1F /* Recyclr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Recyclr.entitlements; sourceTree = "<group>"; };
+		287CC62323733D2400904C1F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		287CC62623733E0900904C1F /* homeFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = homeFeed.storyboard; sourceTree = "<group>"; };
+		28AE174323748ACF0064D10A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28AE174623748B960064D10A /* ChatConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConstants.swift; sourceTree = "<group>"; };
+		28AE1748237498080064D10A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		28AE174A2374A2C90064D10A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28FD94782374BCF3005A4975 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		28FD947A2374CD96005A4975 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		28FD947C2374CDA4005A4975 /* UserControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserControllers.swift; sourceTree = "<group>"; };
+		28FD947E2374CDB2005A4975 /* CommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentController.swift; sourceTree = "<group>"; };
+		7EDDB386089724EE541BF7A2 /* Pods_Recyclr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recyclr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F926504FBDF0E75EE8EB1BFB /* Pods-Recyclr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recyclr.debug.xcconfig"; path = "Target Support Files/Pods-Recyclr/Pods-Recyclr.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287CC60023733C5700904C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287CC62423733D2400904C1F /* CloudKit.framework in Frameworks */,
+				7E5D52461BA2ABCDBB1F785D /* Pods_Recyclr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28166E232375F41B0076A288 /* HomeTabFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				28166E1F2375F3B70076A288 /* PostFeedViewController.swift */,
+				28166E212375F4040076A288 /* ProfileInspectTableViewController.swift */,
+			);
+			path = HomeTabFunctions;
+			sourceTree = "<group>";
+		};
+		28166E272375F45F0076A288 /* ProfileTabFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				28166E242375F4540076A288 /* UserProfileTableViewController.swift */,
+			);
+			path = ProfileTabFunctions;
+			sourceTree = "<group>";
+		};
+		28166E2E2375F4CF0076A288 /* MessageTabFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				28166E292375F4960076A288 /* MessageListTableViewController.swift */,
+				28166E2B2375F4BB0076A288 /* ConversationViewController.swift */,
+			);
+			path = MessageTabFunctions;
+			sourceTree = "<group>";
+		};
+		28166E312375F51A0076A288 /* MapTabFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				28166E2F2375F5100076A288 /* RecycleCenterLocationMapViewController.swift */,
+			);
+			path = MapTabFunctions;
+			sourceTree = "<group>";
+		};
+		28166E3C2375FB610076A288 /* AddPostTabFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				28166E3A2375FB5C0076A288 /* addPostViewController.swift */,
+			);
+			path = AddPostTabFunctions;
+			sourceTree = "<group>";
+		};
+		287CC5FA23733C5700904C1F = {
+			isa = PBXGroup;
+			children = (
+				287CC60523733C5700904C1F /* Recyclr */,
+				287CC60423733C5700904C1F /* Products */,
+				287CC62223733D2400904C1F /* Frameworks */,
+				BB99A178493540DB60837340 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		287CC60423733C5700904C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287CC60323733C5700904C1F /* Recyclr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287CC60523733C5700904C1F /* Recyclr */ = {
+			isa = PBXGroup;
+			children = (
+				287CC61D23733C9A00904C1F /* Controllers */,
+				287CC61C23733C8A00904C1F /* Views */,
+				287CC61B23733C8400904C1F /* Models */,
+				287CC61A23733C6A00904C1F /* Resources */,
+			);
+			path = Recyclr;
+			sourceTree = "<group>";
+		};
+		287CC61A23733C6A00904C1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AE174523748B780064D10A /* Constants */,
+				287CC62523733D8D00904C1F /* Entitlements */,
+				287CC60623733C5700904C1F /* AppDelegate.swift */,
+				287CC60823733C5700904C1F /* SceneDelegate.swift */,
+				287CC60F23733C5900904C1F /* Assets.xcassets */,
+				287CC61123733C5900904C1F /* LaunchScreen.storyboard */,
+				28AE174323748ACF0064D10A /* GoogleService-Info.plist */,
+				287CC61423733C5900904C1F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		287CC61B23733C8400904C1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28AE1748237498080064D10A /* Post.swift */,
+				28AE174A2374A2C90064D10A /* User.swift */,
+				28FD94782374BCF3005A4975 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		287CC61C23733C8A00904C1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				287CC61E23733CE600904C1F /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		287CC61D23733C9A00904C1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				287CC62023733CFD00904C1F /* ViewControllers */,
+				287CC61F23733CF000904C1F /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		287CC61E23733CE600904C1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				287CC62623733E0900904C1F /* homeFeed.storyboard */,
+				28166E362375F8050076A288 /* messageTab.storyboard */,
+				28166E382375F9360076A288 /* addPost.storyboard */,
+				28166E322375F70B0076A288 /* mapTab.storyboard */,
+				28166E342375F7DF0076A288 /* profileTab.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		287CC61F23733CF000904C1F /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28FD947A2374CD96005A4975 /* PostController.swift */,
+				28FD947C2374CDA4005A4975 /* UserControllers.swift */,
+				28FD947E2374CDB2005A4975 /* CommentController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		287CC62023733CFD00904C1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28166E1D2375F31B0076A288 /* TabBarViewController.swift */,
+				28166E232375F41B0076A288 /* HomeTabFunctions */,
+				28166E2E2375F4CF0076A288 /* MessageTabFunctions */,
+				28166E3C2375FB610076A288 /* AddPostTabFunctions */,
+				28166E312375F51A0076A288 /* MapTabFunctions */,
+				28166E272375F45F0076A288 /* ProfileTabFunctions */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		287CC62223733D2400904C1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287CC62323733D2400904C1F /* CloudKit.framework */,
+				7EDDB386089724EE541BF7A2 /* Pods_Recyclr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		287CC62523733D8D00904C1F /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				287CC62123733D1500904C1F /* Recyclr.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		28AE174523748B780064D10A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				28AE174623748B960064D10A /* ChatConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BB99A178493540DB60837340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F926504FBDF0E75EE8EB1BFB /* Pods-Recyclr.debug.xcconfig */,
+				10C46688E25BF515CCDB69FD /* Pods-Recyclr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287CC60223733C5700904C1F /* Recyclr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287CC61723733C5900904C1F /* Build configuration list for PBXNativeTarget "Recyclr" */;
+			buildPhases = (
+				F6EAC4E93665396A487E23FD /* [CP] Check Pods Manifest.lock */,
+				287CC5FF23733C5700904C1F /* Sources */,
+				287CC60023733C5700904C1F /* Frameworks */,
+				287CC60123733C5700904C1F /* Resources */,
+				91516DBD68B80D0572C8F43E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recyclr;
+			productName = Recyclr;
+			productReference = 287CC60323733C5700904C1F /* Recyclr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287CC5FB23733C5700904C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Christopher Alegre";
+				TargetAttributes = {
+					287CC60223733C5700904C1F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 287CC5FE23733C5700904C1F /* Build configuration list for PBXProject "Recyclr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287CC5FA23733C5700904C1F;
+			productRefGroup = 287CC60423733C5700904C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287CC60223733C5700904C1F /* Recyclr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287CC60123733C5700904C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28166E392375F9360076A288 /* addPost.storyboard in Resources */,
+				28166E352375F7DF0076A288 /* profileTab.storyboard in Resources */,
+				287CC62723733E0900904C1F /* homeFeed.storyboard in Resources */,
+				28166E372375F8050076A288 /* messageTab.storyboard in Resources */,
+				28166E332375F70B0076A288 /* mapTab.storyboard in Resources */,
+				28AE174423748ACF0064D10A /* GoogleService-Info.plist in Resources */,
+				287CC61323733C5900904C1F /* LaunchScreen.storyboard in Resources */,
+				287CC61023733C5900904C1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91516DBD68B80D0572C8F43E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Recyclr/Pods-Recyclr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Recyclr/Pods-Recyclr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Recyclr/Pods-Recyclr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EAC4E93665396A487E23FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Recyclr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287CC5FF23733C5700904C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28166E252375F4540076A288 /* UserProfileTableViewController.swift in Sources */,
+				28FD947F2374CDB2005A4975 /* CommentController.swift in Sources */,
+				28166E2C2375F4BB0076A288 /* ConversationViewController.swift in Sources */,
+				28FD947B2374CD96005A4975 /* PostController.swift in Sources */,
+				28166E2A2375F4960076A288 /* MessageListTableViewController.swift in Sources */,
+				28166E302375F5100076A288 /* RecycleCenterLocationMapViewController.swift in Sources */,
+				28FD947D2374CDA4005A4975 /* UserControllers.swift in Sources */,
+				287CC60723733C5700904C1F /* AppDelegate.swift in Sources */,
+				28166E222375F4040076A288 /* ProfileInspectTableViewController.swift in Sources */,
+				28AE174B2374A2C90064D10A /* User.swift in Sources */,
+				28FD94792374BCF3005A4975 /* Comment.swift in Sources */,
+				28166E202375F3B70076A288 /* PostFeedViewController.swift in Sources */,
+				28166E3B2375FB5C0076A288 /* addPostViewController.swift in Sources */,
+				287CC60923733C5700904C1F /* SceneDelegate.swift in Sources */,
+				28AE174723748B960064D10A /* ChatConstants.swift in Sources */,
+				28166E1E2375F31B0076A288 /* TabBarViewController.swift in Sources */,
+				28AE1749237498080064D10A /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		287CC61123733C5900904C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287CC61223733C5900904C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287CC61523733C5900904C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		287CC61623733C5900904C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287CC61823733C5900904C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F926504FBDF0E75EE8EB1BFB /* Pods-Recyclr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Recyclr/Resources/Entitlements/Recyclr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XC6N4RBRH;
+				INFOPLIST_FILE = "$(SRCROOT)/Recyclr/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calegre.Recyclr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		287CC61923733C5900904C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C46688E25BF515CCDB69FD /* Pods-Recyclr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Recyclr/Resources/Entitlements/Recyclr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XC6N4RBRH;
+				INFOPLIST_FILE = "$(SRCROOT)/Recyclr/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calegre.Recyclr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287CC5FE23733C5700904C1F /* Build configuration list for PBXProject "Recyclr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CC61523733C5900904C1F /* Debug */,
+				287CC61623733C5900904C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287CC61723733C5900904C1F /* Build configuration list for PBXNativeTarget "Recyclr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287CC61823733C5900904C1F /* Debug */,
+				287CC61923733C5900904C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287CC5FB23733C5700904C1F /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>132501757770-uvv1bcmd6e99eleiah6vjq36u8t2uvoc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.132501757770-uvv1bcmd6e99eleiah6vjq36u8t2uvoc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAHJ1DsqL6nthWgjfaknQXTUWRf7FiEesw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>132501757770</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>calegre.Recyclr</string>
+	<key>PROJECT_ID</key>
+	<string>recyclr-9795d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>recyclr-9795d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:132501757770:ios:593ffa29644550b056abb3</string>
+	<key>DATABASE_URL</key>
+	<string>https://recyclr-9795d.firebaseio.com</string>
+</dict>
+</plist>
